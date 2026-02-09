@@ -1,6 +1,6 @@
 import React from "react"
 import "./App.css"
-
+import menuImg from "./img/menu.png"
 export default function Header() {
   const [menu, setMenu] = React.useState(false);
   
@@ -12,7 +12,7 @@ export default function Header() {
     <header className="header">
       <div className="menu-button">
         <button className="js-menu" onClick={menuButton}>
-          <img src="img/menu.png" className="img-menu"></img>
+          <img src={menuImg} className="img-menu"></img>
         </button>
         {
           menu ? 
