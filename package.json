@@ -9,7 +9,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "preview": "vite preview",
-    "publish": "git add . && node -e \"require('child_process').execSync('git commit -m \\\"' + (process.env.npm_config_msg || 'update') + '\\\"', { stdio: 'inherit' })\" && git push origin main && npm run deploy"
+    "publish": "node scripts/publish.js"
     
   },
   "homepage": "https://Nambooproo.github.io/website/",
