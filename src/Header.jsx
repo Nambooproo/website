@@ -1,6 +1,7 @@
 import React from "react"
 import "./App.css"
-import menuImg from "./img/menu.png"
+import menuImg from "./assets/menu.png"
+
 export default function Header() {
   const [menu, setMenu] = React.useState(false);
   
