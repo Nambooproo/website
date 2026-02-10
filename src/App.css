@@ -12,6 +12,14 @@
   }
 }
 
+* {
+  font-family: Roboto;
+}
+
+.logo {
+  font-weight: 500;
+}
+
 .js-menu {
   border: none;
   border-radius: 1px;
@@ -27,10 +35,6 @@
   cursor: pointer;
 }
 
-.menu-button {
-  font-family: Roboto;
-}
-
 .img-menu {
   width: 2.5rem;
   height: 100%;
@@ -38,12 +42,12 @@
 
 .menu-section {
   border-bottom: 2px solid black;
-  height: 10%;
+  height: 12.5%;
   color: black;
   font-size: 0.9rem;
   display: flex;
   align-items: center;
-  padding-left: 3px;
+  padding-left: 0.3rem;
 }
 
 .info-menu {
@@ -51,7 +55,7 @@
   z-index: 1;
   background-color: #777;
   color: white;
-  top: 4rem;
+  top: 2.34rem;
   left: 7px;
   height: 40dvh;
   width: 35dvw;
@@ -70,6 +74,8 @@
   height: 8.5dvh;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   padding: 0.3rem;
+  border-radius: 0 0 10px 10px;
 }

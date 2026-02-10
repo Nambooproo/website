@@ -28,6 +28,9 @@ export default function Header() {
           : null
         }
       </div>
+      <div className="logo">
+      Nambooproo Bot
+      </div>
     </header>
   )
 }
